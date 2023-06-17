@@ -1,10 +1,10 @@
+import Home from "./pages/Home";
 
 function App() {
   return (
-    <div className="text-4xl text-gray-700 tracking-widest capitalize text-center p-20">
-      welcom to the product feedback app
+    <div className="mx-auto p-20 bg-gray-100 h-screen">
+      <Home/>
     </div>
   );
 }
-
 export default App;
