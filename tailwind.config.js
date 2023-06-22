@@ -7,6 +7,9 @@ module.exports = {
     extend: {
       fontFamily:{
         'jost' :['Jost','sans-serif']
+      },
+      animation: {
+        'spin-slow': 'spin 50s linear infinite',
       }
     },
   },
